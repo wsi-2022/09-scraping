@@ -1,4 +1,4 @@
-#! /usr/bin/env node --experimental-fetch  --no-warnings
+#! /usr/bin/env node --experimental-fetch --no-warnings
 
 const {DEBUG, NODE_ENV} = process.env;
 const {scraper} = require('../lib/scraper');
