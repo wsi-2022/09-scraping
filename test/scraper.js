@@ -2,6 +2,11 @@ const assert = require('assert');
 const scraper = require('../lib/scraper');
 const { JSDOM } = require('jsdom');
 
+describe('The experimental fetch object', function() {
+  it('should exist, given the --experimental-fetch flag', function() {
+    assert.equal(typeof fetch, 'function');
+  });
+});
 
 describe('The scraper library', function() {
   it('should return the fifty Chicago wards', async function() {
