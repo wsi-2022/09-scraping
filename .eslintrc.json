@@ -12,6 +12,9 @@
     "es6": true,
     "node": true
   },
+  "globals": {
+    "fetch": "readonly"
+  },
   "extends": "eslint:recommended",
   "rules": {
     "arrow-body-style": ["error", "as-needed"],
