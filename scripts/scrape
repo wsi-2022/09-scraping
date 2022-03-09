@@ -1,5 +1,7 @@
 #! /usr/bin/env node --experimental-fetch --no-warnings
 
+'use strict';
+
 const {scraper} = require('../lib/scraper');
 
 scraper('https://www.chicago.gov/city/en/about/wards.html');
