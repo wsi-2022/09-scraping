@@ -6,7 +6,7 @@
     "lib": "lib"
   },
   "scripts": {
-    "test": "node --experimental-fetch ./node_modules/mocha/bin/mocha",
+    "test": "NODE_ENV=testing node --experimental-fetch ./node_modules/mocha/bin/mocha",
     "test:lint": "npx eslint lib/",
     "scrape": "scripts/scrape"
   },
