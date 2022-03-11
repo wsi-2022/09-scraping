@@ -43,6 +43,7 @@
     "no-template-curly-in-string": "error",
     "no-undef": "warn",
     "no-undefined": "error",
+    "no-unused-vars": "warn",
     "no-var": "error",
     "prefer-rest-params": "error",
     "prefer-template": "warn",
