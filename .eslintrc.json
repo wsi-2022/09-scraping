@@ -22,7 +22,7 @@
     "callback-return": "error",
     "comma-dangle": ["warn", "never"],
     "comma-spacing": ["warn", { "before": false, "after": true }],
-    "curly": ["warn", "all"],
+    "curly": ["warn", "multi-line"],
     "dot-location": ["warn", "property"],
     "dot-notation": "warn",
     "eqeqeq": ["warn", "always"],
